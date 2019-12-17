@@ -2,7 +2,7 @@ FROM python:3.7-alpine
 MAINTAINER Aaron Shakibpanah
 ENV PYTHONUNBUFFERED 1
 
-COPY ./requirments.txt /requirements.txt
+COPY ./requirements.txt /requirements.txt
 
 RUN pip install -r /requirements.txt
 
